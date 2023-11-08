@@ -12,7 +12,7 @@ const Formulario = () => {
   }) 
   const [alerta, setAlerta] = useState('')
   const { categorias } = useCategorias()
-  const { consultarBebida} = useBebidas()
+  const { consultarBebida } = useBebidas()
 
   const handleSubmit = e => {
     e.preventDefault()
@@ -78,7 +78,7 @@ const Formulario = () => {
       <Row className='justify-content-end'>
         <Col md={3}>
            <Button
-             variant='danger'
+             variant='primary'
              className='text-uppercase w-100'
              type='Submit'
            > 
